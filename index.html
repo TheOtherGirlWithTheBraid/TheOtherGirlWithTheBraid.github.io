@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annabelle Sanders | Share Your Story</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Playfair Display', Georgia, serif;
+            background: #9fb1bd;
+        }
+
+        .section-image {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .connect-section {
+            background: #9fb1bd;
+            padding: 60px 80px 80px;
+            display: flex;
+            align-items: center;
+            gap: 60px;
+        }
+
+        .avatar-container {
+            flex-shrink: 0;
+        }
+
+        .avatar {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            object-position: center top;
+            background: #e8eff3;
+        }
+
+        .connect-text {
+            font-size: 28px;
+            font-weight: 400;
+            font-style: italic;
+            line-height: 1.5;
+            color: #4a5568;
+        }
+
+        .connect-text a {
+            color: #2b4c7e;
+            text-decoration: underline;
+        }
+
+        .connect-text a:hover {
+            color: #1a365d;
+        }
+
+        @media (max-width: 768px) {
+            .connect-section {
+                flex-direction: column;
+                padding: 40px 30px 60px;
+                text-align: center;
+                gap: 30px;
+            }
+
+            .connect-text {
+                font-size: 22px;
+            }
+
+            .avatar {
+                width: 160px;
+                height: 160px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <img src="images/1.png" alt="Annabelle Sanders - Introduction, Education, and Early Projects" class="section-image">
+    <img src="images/2.png" alt="Annabelle Sanders - Honors College, WomenLead, GIS, and Conference Experience" class="section-image">
+    <img src="images/3_top.png" alt="Annabelle Sanders - Looking for Graduate School and Internship Opportunities" class="section-image">
+    
+    <section class="connect-section">
+        <div class="avatar-container">
+            <img src="images/avatar.jpg" alt="Annabelle Sanders" class="avatar">
+        </div>
+        <p class="connect-text">
+            I invite you to<br>
+            <a href="https://www.linkedin.com/in/annabelle-sanders313/">connect with me on LinkedIn</a><br>
+            to follow my journey
+        </p>
+    </section>
+</body>
+</html>
